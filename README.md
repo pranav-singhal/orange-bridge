@@ -1,43 +1,13 @@
-# Hyperlane Warp Route UI Template
+# Orange Bridge
+Join Bitcoin, without leaving Ethereum.
 
-This repo contains an example web interface for interchain tokens built with [Hyperlane Warp Route](https://docs.hyperlane.xyz/docs/reference/applications/warp-routes). Warp is a framework to permisionlessly bridge tokens to any chain.
 
-## Architecture
+<img src="./public/orange-bridge.jpeg" alt="Orange Bridge Logo" width="200" />
 
-This app is built with Next & React, Wagmi, RainbowKit, and the Hyperlane SDK.
-
-- Constants that you may want to change are in `./src/consts/`, see the following Customization section for details.
-- The index page is located at `./src/pages/index.tsx`
-- The primary features are implemented in `./src/features/`
-
-## Customization
-
-See [CUSTOMIZE.md](./CUSTOMIZE.md) for details about adjusting the tokens and branding of this app.
-
-## Development
-
-### Setup
-
-#### Build
-```sh
-# Install dependencies
-yarn
-
-# Build Next project
-yarn build
-```
-
-#### Configure
-
-You need a `projectId` from the WalletConnect Cloud to run the Hyperlane Warp Route UI successfully. 
-Sign up to [WalletConnect Cloud](https://cloud.walletconnect.com/), create 
-new project with AppKit and Next.js and copy the `projectId` from there.
-
-### Run
 
 You can add `.env.local` file next to `.env.example` where you set `projectId` copied from WalletConnect Cloud.
+
 ```sh
-# Start the Next dev server
 yarn dev
 ```
 
