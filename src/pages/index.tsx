@@ -1,14 +1,15 @@
 import type { NextPage } from 'next';
 
-import { TipCard } from '../components/tip/TipCard';
+import { SwapCard } from '../features/swap/SwapCard';
 import { TransferTokenCard } from '../features/transfer/TransferTokenCard';
 import { WalletFloatingButtons } from '../features/wallet/WalletFloatingButtons';
 
 const Home: NextPage = () => {
   return (
     <div className="space-y-3 pt-4">
-      <TipCard />
+      {/* <TipCard /> */}
       <div className="relative">
+        <SwapCard />
         <TransferTokenCard />
         <WalletFloatingButtons />
       </div>

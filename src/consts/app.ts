@@ -8,8 +8,8 @@ export const MAIN_FONT = Space_Grotesk({
   preload: true,
   fallback: ['sans-serif'],
 });
-export const APP_NAME = 'Hyperlane Warp UI Template';
-export const APP_DESCRIPTION = 'A DApp for Hyperlane Warp Route transfers';
+export const APP_NAME = 'Orange Bridge';
+export const APP_DESCRIPTION = 'Get on Bitcoin with Orange Bridge';
 export const APP_URL = 'hyperlane-warp-template.vercel.app';
 export const BRAND_COLOR = Color.primary;
 export const BACKGROUND_COLOR = Color.primary;

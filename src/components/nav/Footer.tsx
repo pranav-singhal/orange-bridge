@@ -32,8 +32,8 @@ export function Footer() {
     <footer className="relative text-white">
       <div className="relative z-10 bg-gradient-to-b from-transparent to-black/40 px-8 pb-5 pt-2 sm:pt-0">
         <div className="flex flex-col items-center justify-between gap-8 sm:flex-row sm:gap-10">
-          <FooterLogo />
-          <FooterNav />
+          {/* <FooterLogo /> */}
+          {/* <FooterNav /> */}
         </div>
       </div>
     </footer>
